@@ -1,11 +1,42 @@
 .container{
     border-radius: 5px;
     background-color: hsl(216, 12%, 8%);
-    padding: 300px;
+    padding: 150px;
     margin: auto;
     width: 300px;
+    height:50%;
+    color: white;
+    text-align: center;
 }
 
 body{
     background-color: black;
+}
+
+h1{
+    font-family: 'Overpass', sans-serif;
+}
+
+p{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+
+#submit{
+    font-family: 'Overpass', sans-serif;
+    background-color: orange;
+    font-size: 15px;
+    width: 250px;
+    height: 25px;
+    border-radius: 12px;
+}
+
+#result{
+    font-family: 'Overpass', sans-serif;
+    background-color:hsl(216, 12%, 54%) ;
+    color: orange;
+    font-size: 15px;
+    width: 250px;
+    height: 25px;
+    border-radius: 12px;
 }
