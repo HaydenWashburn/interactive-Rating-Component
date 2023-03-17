@@ -16,6 +16,19 @@ body{
   align-items:center;
 
   width: 600px;
+  background-color:hsl(213, 19%, 18%) ;
+  border-radius:18px;
+  color:white;
+}
+
+.container2 {
+  flex: 1;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+
+  width: 600px;
 
   background-color:hsl(213, 19%, 18%) ;
   border-radius:18px;
@@ -58,27 +71,37 @@ body{
 
 h1{
     font-family: 'Overpass', sans-serif;
+    text-align: center;
 }
 
 p{
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
+    text-align: center;
 }
 
 #submit{
     font-family: 'Overpass', sans-serif;
     background-color: orange;
     font-size: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
     width: 250px;
     height: 25px;
     border-radius: 12px;
 }
 
-#result{
+#prompt{
     font-family: 'Overpass', sans-serif;
     background-color:hsl(216, 12%, 54%) ;
     color: orange;
     font-size: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     width: 250px;
     height: 25px;
     border-radius: 12px;
